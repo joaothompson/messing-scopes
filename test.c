@@ -1,8 +1,12 @@
-#include <student.h>
 #include <stdio.h>
+#include "student.h"
+
+int total = 100;
 
 int main(void)
 {
-  simple_input();
+  messing_scope();
+  messing_hard();
+  donottangleup();
   return 0;
 }
